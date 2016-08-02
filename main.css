@@ -1,0 +1,36 @@
+a{
+  border:2px solid white;
+  width: 210px;
+  color:gray;
+  text-decoration: none;
+  margin-left: 7px;
+  margin-top: 38px;
+  background-color: #FBFBFB;
+  padding: 46px 12px;
+  float:left;
+  height: 293px;
+}
+span{
+  font-size:60px;
+  padding: 3px 86px;
+}
+a:hover{
+  transform:scale(1.2);
+  color:#1ABC9C;
+  opacity: 0.3;
+  transition-property: font-size,color;
+  transition-duration: 0.3s;
+  font-size:105%;
+  color:#1ABC9C;
+  box-shadow: 2px 2px 5px #999;
+}
+h2{
+  text-align: center;
+  padding: 12px 4px;
+  font-family: 'Lobster Two', cursive;
+}
+p{
+  text-align: center;
+  padding-bottom: 13px;
+  font-family: 'Playfair Display', serif;
+}
